@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/inst_apps"
+          android:title="Extraction apps"
+          android:icon="@drawable/ic_android_black"/>
+
+    <item android:title="Service">
+        <menu>
+            <item
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share"
+                  android:id="@+id/share_this"/>
+            <item
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="Exit"
+                  android:id="@+id/exit"/>
+        </menu>
+    </item>
+
+
+
+    <item android:title="About us">
+        <menu>
+            <item android:title="Join our Telegram channel"
+                  android:icon="@drawable/ic_near_me_black"
+                  android:id="@+id/tch"/>
+        </menu>
+    </item>
+</menu>
